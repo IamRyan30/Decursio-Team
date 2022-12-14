@@ -36,7 +36,6 @@ body:
         - 'No'
     validations:
       required: true
-\
   
   
   - type: markdown
