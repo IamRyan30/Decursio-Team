@@ -21,6 +21,18 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: is-online
+    attributes:
+      label: 'Did this issue occur on Multiplayer, Singleplayer, or both?'
+      options:
+       - 'Singleplayer Only'
+       - 'Multiplayer Only'
+       - 'Both'
+       - 'Did not test on Singleplayer, I will do that now'
+       - 'Cannot be tested in Singleplayer'
+    validations:
+      required: true
+  - type: dropdown
     id: optifine-presence
     attributes:
       label: 'Do you, or did you had Optifine installed when the issue took place?'
