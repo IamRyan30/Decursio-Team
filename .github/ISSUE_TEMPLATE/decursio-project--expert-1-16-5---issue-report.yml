@@ -71,7 +71,7 @@ body:
       label: Other mods
       description: List the additional mods used while the issue took place
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: '## Confirm the following'
