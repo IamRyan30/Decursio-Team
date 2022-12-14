@@ -24,6 +24,7 @@ body:
     id: is-online
     attributes:
       label: 'Did this issue occur on Multiplayer, Singleplayer, or both?'
+      multiple: true
       options:
        - 'Singleplayer Only'
        - 'Multiplayer Only'
@@ -63,7 +64,7 @@ body:
   - type: input
     id: log-file
     attributes:
-      label: Log File related to your crash
+      label: Log File related to your issue
       description: Paste a link to the log file
     validations:
       required: true
