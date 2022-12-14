@@ -1,0 +1,62 @@
+name: Decursio Project Expert 1.16.5 Suggestion
+description: Suggest a change to our 1.16.5 pack
+labels: [Enhancement, Unreviewed]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If your idea requires discussion or is complicated, [join our discord](https://discord.gg/nrVcQqBjAx) instead of posting a new issue.
+  
+  - type: markdown
+    attributes:
+      value: "## Versions"
+      
+  - type: markdown
+    attributes:
+      value: |
+        List the last version of the pack you played before making this suggestion, to ensure you are not missing new features.
+  
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      placeholder: "Ex: Beta 22"
+    validations:
+      required: true
+      
+  
+  - type: markdown
+    attributes:
+      value: "## Enhancement Description"
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: "Describe the reason for this suggestion, what is the problem you are trying to solve?"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested solution
+      description: "Describe the solution you would suggest to the above problem"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: "Describe any alternatives you have considered to your suggested solution"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: "If there is any additional context needed, such as screenshots or related mods, include here"
+    validations:
+      required: false
