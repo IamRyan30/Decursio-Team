@@ -4,7 +4,7 @@ labels: [1.16.5, Bug, Unreviewed]
 body:    
   - type: markdown
     attributes:
-      value: "## Versions"
+    value: "## Versions"
   
   - type: input
     id: modpack-version
