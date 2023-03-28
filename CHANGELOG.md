@@ -1,3 +1,26 @@
+### Changelog r1.0.4:
+- Possibly fixed the issue where some Mechanical Crafting recipes couldn't be finished due to some nbt data
+- Fixed some typos
+- Fixed the issue where you couldn't craft the Inverter Card from AE2 (now the recipe uses an Inverted Toggle Bus)
+- Fixed the issue where the Lumium and Enderium Gear recipes would have duplicates
+- Fixed the crash caused by Bucket in the Coker
+- Added a recipe to convert Andesite Alloy into Molten Andesite Alloy
+- Psi got various bug fixes (ask Vazkii)
+### Mod Changes
+#### Updated Mods:
+- Curios API
+- CraftTweaker
+- Immersive Petroleum
+- Prefab
+- Psi
+- PackagedExCrafting
+- PackagedAuto
+- PackagedAstral
+- Serene Seasons
+#### Removed Mods:
+- Cloth Config
+---
+
 ### Changelog r1.0.2:
 - Fixed CustomMachineries not being available on multiplayer
 - Fixed Shrink quest still being visible
