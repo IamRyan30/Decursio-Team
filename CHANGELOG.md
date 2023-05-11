@@ -1,3 +1,32 @@
+### Changelog r1.0.5:
+- Ambient Sounds 5 was removed for stability purposes
+- Fixed a rare crash caused by Framed Blocks
+- Fixed a rare crash caused by Lootr
+- Fixed the issue where the Iridescent Packing Altar would have no loot table when destroyed
+- Fixed the issue where the vanilla Trapped Chest would have no recipe
+- Fixed the issue where you couldn't convert a panel ME Interface back into a full Block
+- The AE2 Color applicator war re-enabled
+- The AE2 Colored Paint Balls were re-enabled
+- Rod of The Lands recipe was changed (now it requires 3x compressed dirt)
+- Added a new recipe for the Resonating Gems
+### Mod Changes
+#### Updated Mods:
+- Fancy Menu
+- Drippy Loading Screen
+- Framed Blocks
+- SuperMartijn642's Core Lib
+- Trash Cans
+- ShoulderSurfingReloaded
+- BisectHosting Server Integration Menu
+- Botany Pots
+- PackagedExCrafting
+- Packaged Auto
+- Packaged Astral
+- Lootr
+#### Removed Mods:
+- Ambient Sounds 5
+---
+
 ### Changelog r1.0.4:
 - Possibly fixed the issue where some Mechanical Crafting recipes couldn't be finished due to some nbt data
 - Fixed some typos
